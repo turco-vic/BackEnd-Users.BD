@@ -5,7 +5,7 @@ const getAllUsers = async (req, res) => {
         const users = await userModel.getUsers();
         res.json(users);
     } catch (error) {
-        res.status(500).json({ message: "Erro ao buscar usuários." });
+        res.status(404).json({ message: "Erro ao buscar usuários." });
     }
 };
 
