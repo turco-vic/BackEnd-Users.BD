@@ -1,6 +1,6 @@
 CREATE DATABASE cadastro;
 
-/c cadastro;
+\c cadastro;
 
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
@@ -11,5 +11,5 @@ CREATE TABLE users (
     INSERT INTO users (name, email) VALUES 
     ('Thiago Ferreira', 'thiagoferreira@email.com'),
     ('Marcelo Carboni', 'marcelocarboni@email.com'),
-    ('Eduardo Correria', 'eduardocorreia@email.com');
+    ('Eduardo Correria', 'eduardocorreia@email.com'),
     ('Felipe Santos', 'felipesantos@eamil.com');
